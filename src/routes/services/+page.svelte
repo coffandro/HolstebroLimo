@@ -17,7 +17,7 @@
 
 <div class="flex space-x-4 my-4">
     <div>
-        <img src="lilleBrudePar.jpg" class="rounded-lg"/>
+        <img src="lilleBrudePar.jpg" class="rounded-lg mb-2"/>
         <img src="tjener01.jpg" class="rounded-lg"/>
     </div>
     <div class="w-full text-gray-50 flex flex-col space-y-2">
