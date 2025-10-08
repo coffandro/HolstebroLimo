@@ -23,7 +23,7 @@ Hver kørsel aftales individuelt så oplevelsen bliver lige efter
 jeres ønske.<br>
 </div>
 
-<div class="text-4xl flex justify-center my-8">
+<div class="text-4xl flex justify-center my-3">
     <Button
         link="/book"
         string="Book"
