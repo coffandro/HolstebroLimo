@@ -24,7 +24,7 @@
             string="Mobil"/>
     </div>
     
-    <p class="text-xl font-semibold text-gray-800 mt-4">
+    <p class="text-xl font-semibold text-gray-100 mt-4">
         Addresser inkl postnummer og by
     </p>
     <div class="grid grid-cols-2 grid-rows-1 gap-2">
@@ -34,7 +34,7 @@
             string="Slut Adresse"/>
     </div>
 
-    <p class="text-xl font-semibold text-gray-800 mt-4">
+    <p class="text-xl font-semibold text-gray-100 mt-4">
         Kørsels dato og tid
     </p>
     <div class="grid grid-cols-2 grid-rows-1 gap-2">

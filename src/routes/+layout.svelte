@@ -14,5 +14,7 @@
 <div class="absolute top-0 left-0 min-h-screen min-w-screen bg-pink-900">
 	<Header/>
 	<Navbar/>
-	{@render children?.()}
+	<div class="m-4">
+		{@render children?.()}
+	</div>
 </div>
