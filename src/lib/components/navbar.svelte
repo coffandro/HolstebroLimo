@@ -1,9 +1,8 @@
 <script>
     import Device from "svelte-device-info";
 	import Navbtn from "./navbtn.svelte";
-    import { PUBLIC_IS_PHONE } from "$env/static/public";
 
-    let isPhone = PUBLIC_IS_PHONE == "true" ? true : Device.isPhone;
+    let isPhone = Device.isPhone;
 </script>
 
 
