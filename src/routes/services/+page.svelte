@@ -1,7 +1,7 @@
 <script>
-	import Button from "$lib/components/button.svelte";
-
+	import { resolve } from "$app/paths";
 </script>
+
 <svelte:head>
     <title>Service</title>
 </svelte:head>
@@ -17,8 +17,8 @@
 
 <div class="flex space-x-4 my-4">
     <div>
-        <img src="lilleBrudePar.jpg" class="rounded-lg mb-2"/>
-        <img src="tjener01.jpg" class="rounded-lg"/>
+        <img src={resolve("/lilleBrudePar.jpg")} class="rounded-lg mb-2"/>
+        <img src={resolve("/tjener01.jpg")} class="rounded-lg"/>
     </div>
     <div class="w-full text-gray-50 flex flex-col space-y-2">
         <p>Vi tilbyder uniformerede chaufør og limousine til den festlige lejlighed, lige meget om den er:</p>

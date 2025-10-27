@@ -3,8 +3,8 @@
 	import Datepicker from "$lib/components/datepicker.svelte";
 	import Input from "$lib/components/input.svelte";
 	import Timepicker from "$lib/components/timepicker.svelte";
-
 </script>
+
 <svelte:head>
     <title>Book</title>
 </svelte:head>

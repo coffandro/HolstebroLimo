@@ -1,6 +1,6 @@
 <script>
 	import Button from "$lib/components/button.svelte";
-
+	import { resolve } from "$app/paths";
 </script>
 
 <svelte:head>
@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="relative w-full">
-    <img src="/LimoBG.png" alt="" class="h-full w-full object-cover rounded-lg my-1">
+    <img src={resolve("/LimoBG.png")} alt="" class="h-full w-full object-cover rounded-lg my-1">
     <div class="absolute inset-0 flex items-center justify-center">
         <p class="text-6xl text-gray-50 font-bold">Holstebro Limousine Service</p>
     </div>
@@ -25,7 +25,7 @@ jeres ønske.<br>
 
 <div class="text-4xl flex justify-center my-3">
     <Button
-        link="/book"
+        link={resolve("/book")}
         string="Book"
     />
 </div>

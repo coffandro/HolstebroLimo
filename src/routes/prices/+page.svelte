@@ -1,7 +1,7 @@
 <script>
-	import Button from "$lib/components/button.svelte";
-
+	import { resolve } from "$app/paths";
 </script>
+
 <svelte:head>
     <title>Priser</title>
 </svelte:head>
@@ -13,7 +13,7 @@
 
 <div class="flex space-x-4 my-4">
     <div class="flex justify-end">
-        <img src="Drinks.png" class="rounded-lg"/>
+        <img src={resolve("/Drinks.png")} class="rounded-lg"/>
     </div>
 
     <div class="mt-5 w-full text-gray-50 flex flex-col space-y-2 mb-8">

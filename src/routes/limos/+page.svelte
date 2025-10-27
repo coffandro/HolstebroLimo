@@ -1,7 +1,7 @@
 <script>
-	import Button from "$lib/components/button.svelte";
-
+	import { resolve } from "$app/paths";
 </script>
+
 <svelte:head>
     <title>Limousiner</title>
 </svelte:head>
@@ -17,7 +17,7 @@
 </div>
 
 <div class="grid grid-cols-2 grid-rows-1 gap-2 my-4">
-    <img src="SunroofLimo.jpg" class="rounded-lg"/>
+    <img src={resolve("/SunroofLimo.jpg")} class="rounded-lg"/>
 
     <div class="w-full text-gray-50 flex flex-col space-y-2">
         <p>Kongeblå med soltag.</p>
