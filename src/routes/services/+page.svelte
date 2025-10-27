@@ -8,6 +8,7 @@
 
 <div class="mt-8 w-full flex flex-col text-center">
     <p class="text-6xl text-gray-50 font-bold">Service</p>
+    <p class="text-xl text-gray-50">her kan du se hvad vi tilbyger</p>
 </div>
 
 
